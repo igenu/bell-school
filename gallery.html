@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery | Bell Matriculation Higher Secondary School</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#FFD700',
+                        secondary: '#1e293b',
+                        accent: '#f97316',
+                    },
+                    fontFamily: {
+                        serif: ['Playfair Display', 'serif'],
+                        sans: ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .tab-active {
+            background-color: #1e293b !important;
+            color: #FFD700 !important; /* Gold text on dark background */
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+        }
+        .fade-in {
+            animation: fadeIn 0.5s ease-in;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body class="bg-white ">
+
+    <div class="pt-24 pb-20 min-h-screen">
+        <div class="container mx-auto px-6 max-w-7xl">
+            
+            <div class="text-center mb-16">
+                <span class="text-sm font-bold uppercase tracking-widest mb-2 block text-accent">Visual Journey</span>
+                <h2 class="text-4xl md:text-5xl  font-bold text-secondary">Our Gallery</h2>
+                <div class="h-1.5 w-24 bg-primary mt-6 mx-auto rounded-full"></div>
+                <p class="mt-6 text-slate-500 max-w-2xl mx-auto">Discover the vibrant life, academic achievements, and cultural celebrations that define the Bell School experience.</p>
+            </div>
+
+            <div class="flex justify-center items-center gap-2 mb-16 bg-slate-50 p-1.5 rounded-full w-fit mx-auto border border-slate-100">
+                <button id="btn-photos" onclick="switchTab('photos')" 
+                    class="tab-active px-10 py-3 rounded-full font-bold transition-all duration-300 flex items-center gap-2">
+                    <i class="fas fa-camera-retro"></i> Photos
+                </button>
+                <button id="btn-videos" onclick="switchTab('videos')" 
+                    class="px-10 py-3 rounded-full font-bold transition-all duration-300 text-slate-500 hover:text-secondary flex items-center gap-2">
+                    <i class="fas fa-play-circle"></i> Videos
+                </button>
+            </div>
+
+            <div id="grid-photos" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 fade-in">
+                <div class="group relative aspect-square rounded-[2rem] overflow-hidden shadow-lg border-4 border-white">
+                    <img src="https://images.unsplash.com/photo-1560785496-4c97b20b2f7b?q=80&w=800" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-gradient-to-t from-secondary/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-8">
+                        <p class="text-white font-medium">Classroom Interaction</p>
+                    </div>
+                </div>
+                <div class="group relative aspect-square rounded-[2rem] overflow-hidden shadow-lg border-4 border-white">
+                    <img src="https://images.unsplash.com/photo-1588072432836-e10032774350?q=80&w=800" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-gradient-to-t from-secondary/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-8">
+                        <p class="text-white font-medium">Primary Section Activities</p>
+                    </div>
+                </div>
+                <div class="group relative aspect-square rounded-[2rem] overflow-hidden shadow-lg border-4 border-white">
+                    <img src="https://images.unsplash.com/photo-1571260899304-425eee4c7efc?q=80&w=800" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-gradient-to-t from-secondary/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-8">
+                        <p class="text-white font-medium">Reading Hours</p>
+                    </div>
+                </div>
+                <div class="group relative aspect-square rounded-[2rem] overflow-hidden shadow-lg border-4 border-white">
+                    <img src="https://images.unsplash.com/photo-1546410531-bb4caa6b424d?q=80&w=800" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-gradient-to-t from-secondary/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-8">
+                        <p class="text-white font-medium">Computer Science Lab</p>
+                    </div>
+                </div>
+                <div class="group relative aspect-square rounded-[2rem] overflow-hidden shadow-lg border-4 border-white">
+                    <img src="https://images.unsplash.com/photo-1509062522246-3755977927d7?q=80&w=800" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-gradient-to-t from-secondary/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-8">
+                        <p class="text-white font-medium">Experimental Learning</p>
+                    </div>
+                </div>
+                <div class="group relative aspect-square rounded-[2rem] overflow-hidden shadow-lg border-4 border-white">
+                    <img src="https://images.unsplash.com/photo-1523580494863-6f3031224c94?q=80&w=800" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-gradient-to-t from-secondary/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-8">
+                        <p class="text-white font-medium">Annual Celebrations</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="grid-videos" class="hidden grid grid-cols-1 gap-6 fade-in">
+                <div class="text-center py-24 bg-slate-50 rounded-[3rem] border-2 border-dashed border-slate-200">
+                    <div class="bg-white w-24 h-24 rounded-full flex items-center justify-center shadow-xl mx-auto mb-6">
+                        <i class="fas fa-film text-3xl text-primary"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-secondary mb-3">Video Highlights</h3>
+                    <p class="text-slate-400 max-w-sm mx-auto">We are currently curating our film gallery. Please check back soon for event highlights and campus tours.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function switchTab(type) {
+            const photoGrid = document.getElementById('grid-photos');
+            const videoGrid = document.getElementById('grid-videos');
+            const photoBtn = document.getElementById('btn-photos');
+            const videoBtn = document.getElementById('btn-videos');
+
+            if (type === 'photos') {
+                photoGrid.classList.remove('hidden');
+                videoGrid.classList.add('hidden');
+                
+                photoBtn.classList.add('tab-active');
+                photoBtn.classList.remove('text-slate-500');
+                
+                videoBtn.classList.remove('tab-active');
+                videoBtn.classList.add('text-slate-500');
+            } else {
+                photoGrid.classList.add('hidden');
+                videoGrid.classList.remove('hidden');
+                
+                videoBtn.classList.add('tab-active');
+                videoBtn.classList.remove('text-slate-500');
+                
+                photoBtn.classList.remove('tab-active');
+                photoBtn.classList.add('text-slate-500');
+            }
+        }
+    </script>
+</body>
+</html>
