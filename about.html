@@ -1,155 +1,654 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us | Bell Matriculation Higher Secondary School</title>
+    <title>Bell Matriculation Higher Secondary School | Excellence Since 1992</title>
+    <link rel="icon" type="image/jpeg" href="images/Bell-Logo_1.jpg">
+
+    <link rel="shortcut icon" href="images/Bell-Logo_1.jpg" type="image/x-icon">
+
+    <link rel="apple-touch-icon" href="images/Bell-Logo_1.jpg">
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700;800;900&family=Noto+Serif:wght@400;600;700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        primary: '#FFD700',
-                        secondary: '#1e293b',
-                        accent: '#f97316',
-                    },
-                    fontFamily: {
-                        serif: ['Playfair Display', 'serif'],
-                        sans: ['Inter', 'sans-serif'],
-                    }
-                }
-            }
-        }
-    </script>
-    <style>
-        .reveal { opacity: 0; transform: translateY(20px); transition: all 0.8s ease-out; }
-        .reveal.active { opacity: 1; transform: translateY(0); }
-    </style>
+    <link rel="stylesheet" href="css/style.css">
+
 </head>
-<body class="bg-white  overflow-x-hidden">
 
-    <div class="pt-24 pb-16 min-h-screen">
-        <div class="container mx-auto px-6 max-w-7xl">
-            
-            <div class="text-center mb-16 reveal">
-                <img src="assets/School_Torch_Logo_final_1771047174615.png" alt="School Emblem" 
-                     class="w-24 h-auto mx-auto mb-6 drop-shadow-md">
-                <h1 class="text-4xl md:text-6xl  font-bold text-secondary mb-4">Our Legacy</h1>
-                <p class="text-lg text-slate-500 max-w-2xl mx-auto">
-                    Since 1992, building a foundation of character and excellence.
-                </p>
-            </div>
-
-            <div class="grid md:grid-cols-2 gap-12 items-center mb-24">
-                <div class="reveal">
-                    <h3 class="text-2xl  font-bold text-secondary mb-4 border-l-4 border-primary pl-4">A Visionary Beginning</h3>
-                    <div class="text-slate-600 space-y-4 text-lg leading-relaxed">
-                        <p>
-                            Bell Matriculation Higher Secondary School was established in <strong>1992</strong> by the revered philanthropist 
-                            <strong>Sri. A. Chelladhurai</strong>. His vision was simple yet profound: to bring world-class education 
-                            rooted in strong moral values to the heart of Tirunelveli.
-                        </p>
-                        <p>
-                            Managed by the <strong>Indrani Chelladhurai Charities</strong>, the institution has grown from humble beginnings 
-                            into a premier educational landmark, known for its disciplined environment and consistent academic results.
-                        </p>
-                    </div>
+<body class="smooth-scroll text-slate-900 overflow-x-hidden bg-white text-[14px]">
+    <!-- Header -->
+    <header id="main-header" class="fixed top-0 left-0 right-0 z-50 transition-all duration-300">
+        <!-- Top Bar -->
+        <div id="top-bar" class="bg-dark text-white transition-all duration-300 opacity-100 overflow-hidden">
+            <div class="max-w-7xl mx-auto px-4 md:px-8 flex justify-between items-center text-sm font-medium py-2">
+                <div class="flex items-center gap-6">
+                    <a href="tel:+914622574117"
+                        class="flex items-center gap-2 hover:text-primary transition-colors text-[11px]">
+                        <i class="fas fa-phone-alt text-[10px]"></i>
+                        <div>+91 (462) 257 4117</div>
+                    </a>
+                    <a href="mailto:bellschool1992@gmail.com"
+                        class="hidden sm:flex items-center gap-2 hover:text-primary transition-colors text-[11px]">
+                        <i class="far fa-envelope text-[10px]"></i>
+                        <div>bellschool1992@gmail.com</div>
+                    </a>
                 </div>
-                <div class="relative h-96 bg-gray-100 rounded-2xl overflow-hidden shadow-2xl reveal">
-                    <img src="https://images.unsplash.com/photo-1544531586-fde5298cdd40?q=80&w=1000&auto=format&fit=crop" 
-                         alt="History and Foundation" class="w-full h-full object-cover">
-                    <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
-                    <div class="absolute bottom-0 left-0 right-0 p-8">
-                        <p class="text-white  italic text-lg text-center">"Education is the movement from darkness to light."</p>
-                    </div>
+                <div class="flex items-center gap-4">
+                    <span class="hidden sm:inline opacity-80 text-[11px]">Tirunelveli, Tamil Nadu</span>
+                    <a href="admission.html"
+                        class="bg-primary text-dark px-3 py-1 rounded-md font-bold hover:bg-white transition-colors uppercase tracking-wider text-[10px]">
+                        Apply Now
+                    </a>
                 </div>
             </div>
+        </div>
 
-            <div class="bg-secondary text-white rounded-[2rem] p-10 md:p-16 mb-24 relative overflow-hidden reveal">
-                <div class="relative z-10 max-w-4xl mx-auto text-center">
-                    <h2 class="text-3xl  font-bold mb-8 text-primary uppercase tracking-widest">Principal's Message</h2>
-                    <blockquote class="text-2xl md:text-4xl italic font-light leading-relaxed mb-8">
-                        "Educating the mind without educating the heart is no education at all."
-                    </blockquote>
-                    <cite class="not-italic font-bold text-primary block text-xl">- Mr. Charles Gnana Sekar Y.</cite>
-                    <span class="text-white/60 text-sm uppercase tracking-widest mt-2 block">Principal</span>
+        <!-- Navigation -->
+        <nav id="navbar" class="bg-white backdrop-blur-md transition-all duration-300 shadow-sm py-4">
+            <div class="max-w-7xl mx-auto px-4 md:px-8 flex items-center justify-between">
+                <a href="/" class="flex items-center gap-3 group">
+                    <img id="nav-logo" src="images/Bell-Logo_1.jpg" alt="Bell School Logo"
+                        class="transition-all duration-300 object-contain h-10 w-auto -ml-2">
+                    <div class="flex flex-col">
+                        <span id="brand-name"
+                            class="font-bold text-secondary leading-tight transition-all duration-300 text-xl md:text-lg">
+                            BELL Matriculation
+                        </span>
+                        <span id="brand-subtext"
+                            class="text-[10px] md:text-xs text-[#527a63] uppercase tracking-widest hidden md:block transition-all">
+                            Higher Secondary School
+                        </span>
+                    </div>
+                </a>
+
+                <div class="hidden lg:flex items-center gap-1">
+                    <a href="/"
+                        class="nav-link px-4 py-2 rounded-full text-[13px] font-semibold text-[#1a7440] bg-[#1a74400d]">Home</a>
+                    <a href="about.html"
+                        class="nav-link px-4 py-2 rounded-full text-[13px] font-medium text-gray-600 hover:text-[#1a7440] hover:bg-[#1a74400d] transition-all">About</a>
+                    <a href="academic.html"
+                        class="nav-link px-4 py-2 rounded-full text-[13px] font-medium text-gray-600 hover:text-[#1a7440] hover:bg-[#1a74400d] transition-all">Academic</a>
+                    <a href="admission.html"
+                        class="nav-link px-4 py-2 rounded-full text-[13px] font-medium text-gray-600 hover:text-[#1a7440] hover:bg-[#1a74400d] transition-all">Admission</a>
+                    <a href="facilities.html"
+                        class="nav-link px-4 py-2 rounded-full text-[13px] font-medium text-gray-600 hover:text-[#1a7440] hover:bg-[#1a74400d] transition-all">Facilities</a>
+                    <a href="gallery.html"
+                        class="nav-link px-4 py-2 rounded-full text-[13px] font-medium text-gray-600 hover:text-[#1a7440] hover:bg-[#1a74400d] transition-all">Gallery</a>
+                    <a href="careers.html"
+                        class="nav-link px-4 py-2 rounded-full text-[13px] font-medium text-gray-600 hover:text-[#1a7440] hover:bg-[#1a74400d] transition-all">Careers</a>
+                    <a href="contact.html"
+                        class="nav-link px-4 py-2 rounded-full text-[13px] font-medium text-gray-600 hover:text-[#1a7440] hover:bg-[#1a74400d] transition-all">Contact</a>
                 </div>
-                <div class="absolute top-0 right-0 opacity-5 transform translate-x-1/4 -translate-y-1/4 pointer-events-none">
-                     <img src="assets/School_Torch_Logo_final_1771047174615.png" class="w-[500px] h-[500px]" alt="Watermark">
-                </div>
+
+                <button id="mobile-menu-toggle" class="lg:hidden p-2 text-dark hover:bg-gray-100 rounded-md">
+                    <i id="menu-icon" class="fas fa-bars text-xl"></i>
+                </button>
             </div>
 
-            <div class="max-w-5xl mx-auto">
-                <div class="text-center mb-12 reveal">
-                    <span class="text-sm font-bold uppercase tracking-widest mb-2 block text-accent">Leadership</span>
-                    <h2 class="text-4xl  font-bold text-secondary">Administrative Committee</h2>
-                    <div class="h-1 w-20 bg-primary mt-6 mx-auto"></div>
+            <!-- Mobile Menu -->
+            <div id="mobile-menu" class="hidden lg:hidden absolute top-full left-0 right-0 bg-white border-b shadow-xl">
+                <div class="flex flex-col p-4 space-y-2">
+                    <a href="/" class="px-4 py-3 rounded-lg text-base font-semibold bg-gray-100 text-dark">Home</a>
+                    <a href="about.html"
+                        class="px-4 py-3 rounded-lg text-base font-medium text-gray-600 hover:bg-gray-50">About</a>
+                    <a href="academic.html"
+                        class="px-4 py-3 rounded-lg text-base font-medium text-gray-600 hover:bg-gray-50">Academic</a>
+                    <a href="admission.html"
+                        class="px-4 py-3 rounded-lg text-base font-medium text-gray-600 hover:bg-gray-50">Admission</a>
+                    <a href="facilities.html"
+                        class="px-4 py-3 rounded-lg text-base font-medium text-gray-600 hover:bg-gray-50">Facilities</a>
+                    <a href="gallery.html"
+                        class="px-4 py-3 rounded-lg text-base font-medium text-gray-600 hover:bg-gray-50">Gallery</a>
+                    <a href="careers.html"
+                        class="px-4 py-3 rounded-lg text-base font-medium text-gray-600 hover:bg-gray-50">Careers</a>
+                    <a href="contact.html"
+                        class="px-4 py-3 rounded-lg text-base font-medium text-gray-600 hover:bg-gray-50">Contact</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section
+        class="relative h-[450px] md:h-[650px] flex items-center justify-center overflow-hidden bg-secondary mt-[80px]">
+        <div class="absolute inset-0 z-0">
+            <img src="images/Bell-School-about-4.png" alt="About Bell School"
+                class="w-full h-full object-cover scale-110 transition-transform duration-[3000ms] ease-out origin-center"
+                id="hero-bg">
+            <div class="absolute inset-0 bg-gradient-to-b from-black/50 via-secondary/70 to-secondary"></div>
+        </div>
+
+        <div class="absolute top-20 left-10 w-48 h-48 bg-primary/15 rounded-full blur-3xl animate-blob"></div>
+        <div
+            class="absolute bottom-10 right-10 w-72 h-72 bg-white/10 rounded-full blur-3xl animate-blob animation-delay-2000">
+        </div>
+
+        <div class="relative z-10 text-center text-white px-6 max-w-4xl">
+            <nav class="inline-flex items-center gap-3 mb-8 px-5 py-2 bg-white/10 backdrop-blur-xl rounded-full border border-white/20 opacity-0 -translate-y-4 transition-all duration-1000"
+                id="breadcrumb">
+                <a href="index.html"
+                    class="text-primary hover:text-white transition-colors font-semibold text-sm">Home</a>
+                <span class="w-1.5 h-1.5 bg-white/40 rounded-full"></span>
+                <span class="text-white/80 text-sm font-medium tracking-wide">About Us</span>
+            </nav>
+
+            <h1 class="text-2xl md:text-4xl font-bold mb-6 tracking-tight opacity-0 translate-y-10 transition-all duration-1000 ease-out"
+                id="hero-title">
+                Our Legacy of <span class="relative inline-block text-primary italic">Excellence
+                    <svg class="absolute -bottom-2 left-0 w-full h-4" viewBox="0 0 100 10" preserveAspectRatio="none">
+                        <path d="M0 5 Q 25 0 50 5 T 100 5" stroke="#FFD700" stroke-width="3" fill="transparent" />
+                    </svg>
+                </span>
+            </h1>
+
+            <p class="max-w-2xl mx-auto text-white/90 text-lg md:text-xl font-light leading-relaxed opacity-0 translate-y-10 transition-all duration-1000 delay-300"
+                id="hero-subtitle">
+                Crafting a tradition of academic brilliance and holistic growth in Tirunelveli <span
+                    class="text-primary font-bold">since 1992</span>.
+            </p>
+        </div>
+
+        <div class="absolute bottom-0 left-0 w-full overflow-hidden leading-[0]">
+            <svg class="relative block w-[calc(100%+1.3px)] h-[80px]" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path
+                    d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.83C1132.19,118.92,1055.71,111.31,985.66,92.83Z"
+                    fill="#F9FAFB"></path>
+            </svg>
+        </div>
+    </section>
+
+    <section class="bg-slate-50">
+        <div class="relative z-20 -mt-16 max-w-7xl mx-auto px-6">
+            <div
+                class="bg-white rounded-[2.5rem] shadow-2xl p-8 md:p-12 grid grid-cols-2 lg:grid-cols-4 gap-8 border-b-[10px] border-primary reveal">
+                <div class="text-center border-r border-slate-100 last:border-0 group">
+                    <div
+                        class="text-xl md:text-3xl font-bold text-secondary mb-2 group-hover:text-primary transition-colors">
+                        <span class="counter" data-target="32">0</span>+</div>
+                    <p class="text-slate-400 uppercase tracking-[0.2em] text-[10px] font-black">Years of Legacy</p>
+                </div>
+                <div class="text-center border-r border-slate-100 last:border-0 group">
+                    <div
+                        class="text-xl md:text-3xl font-bold text-secondary mb-2 group-hover:text-primary transition-colors">
+                        <span class="counter" data-target="2500">0</span>+</div>
+                    <p class="text-slate-400 uppercase tracking-[0.2em] text-[10px] font-black">Success Stories</p>
+                </div>
+                <div class="text-center border-r border-slate-100 last:border-0 group">
+                    <div
+                        class="text-xl md:text-3xl font-bold text-secondary mb-2 group-hover:text-primary transition-colors">
+                        <span class="counter" data-target="150">0</span>+</div>
+                    <p class="text-slate-400 uppercase tracking-[0.2em] text-[10px] font-black">Expert Mentors</p>
+                </div>
+                <div class="text-center group">
+                    <div
+                        class="text-xl md:text-3xl font-bold text-secondary mb-2 group-hover:text-primary transition-colors">
+                        <span class="counter" data-target="100">0</span>%</div>
+                    <p class="text-slate-400 uppercase tracking-[0.2em] text-[10px] font-black">Result Record</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-24 bg-slate-50 overflow-hidden">
+        <div class=" mx-auto px-6 max-w-7xl">
+            <div class="flex flex-col lg:flex-row items-center gap-20">
+                <div class="w-full lg:w-1/2 relative reveal">
+                    <div
+                        class="relative z-10 rounded-[3rem] overflow-hidden shadow-2xl border-[12px] border-white -rotate-2 hover:rotate-0 transition-transform duration-700">
+                        <img src="images/Bell-School-building-3.png" alt="Bell School"
+                            class="w-full h-[550px] object-cover">
+                    </div>
+                    <div class="absolute -top-10 -left-10 w-64 h-64 bg-primary rounded-full opacity-20 blur-3xl"></div>
+                    <div class="absolute -bottom-10 -right-10 w-40 h-16 bg-primary rounded-full blur-xl opacity-40">
+                    </div>
+                    <div class="absolute -bottom-6 -left-6 bg-secondary p-8 rounded-3xl shadow-xl hidden md:block z-20">
+                        <p class="text-white text-2xl font-serif italic">"Building Character"</p>
+                    </div>
                 </div>
 
-                <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-6">
-                    <div class="bg-white p-8 rounded-2xl shadow-sm border border-gray-100 text-center hover:shadow-xl transition-all duration-300 reveal group">
-                        <div class="w-20 h-20 bg-slate-50 border border-slate-100 rounded-full mx-auto mb-4 flex items-center justify-center text-3xl  text-secondary font-bold group-hover:bg-primary group-hover:text-secondary transition-colors">
-                            D
-                        </div>
-                        <p class="font-bold text-secondary text-lg mb-1">Dr. A. Chelladhurai</p>
-                        <p class="text-slate-500 text-sm uppercase tracking-wider font-medium">Founder</p>
-                    </div>
+                <div class="w-full lg:w-1/2 reveal">
+                    <span
+                        class="inline-block px-4 py-1 rounded-full bg-primary/10 text-secondary text-xs font-bold uppercase tracking-widest mb-6 border border-primary/20">Our
+                        Purpose</span>
+                    <h2 class="text-xl md:text-3xl font-bold text-secondary mb-8 leading-tight">
+                        Molding Character, <br><span class="text-slate-400 font-serif italic">Not Just Careers.</span>
+                    </h2>
 
-                    <div class="bg-white p-8 rounded-2xl shadow-sm border border-gray-100 text-center hover:shadow-xl transition-all duration-300 reveal group">
-                        <div class="w-20 h-20 bg-slate-50 border border-slate-100 rounded-full mx-auto mb-4 flex items-center justify-center text-3xl  text-secondary font-bold group-hover:bg-primary group-hover:text-secondary transition-colors">
-                            M
+                    <div class="space-y-10">
+                        <div class="flex gap-6 group">
+                            <div
+                                class="w-16 h-16 shrink-0 bg-white shadow-lg rounded-2xl flex items-center justify-center group-hover:bg-secondary transition-all duration-500">
+                                <i class="fas fa-eye text-2xl text-secondary group-hover:text-primary"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-lg font-bold text-secondary mb-2">A Visionary Beginning</h4>
+                                <p class="text-slate-600 leading-relaxed italic">
+                                    Bell Matriculation Higher Secondary School is a community of life long learners that demonstrates the knowledge, skills, and values required for productive global citizenship.
+                                </p>
+                            </div>
                         </div>
-                        <p class="font-bold text-secondary text-lg mb-1">Mr. C. Gunasingh Chelladurai</p>
-                        <p class="text-slate-500 text-sm uppercase tracking-wider font-medium">Correspondent</p>
-                    </div>
 
-                    <div class="bg-white p-8 rounded-2xl shadow-sm border border-gray-100 text-center hover:shadow-xl transition-all duration-300 reveal group">
-                        <div class="w-20 h-20 bg-slate-50 border border-slate-100 rounded-full mx-auto mb-4 flex items-center justify-center text-3xl  text-secondary font-bold group-hover:bg-primary group-hover:text-secondary transition-colors">
-                            M
+                        <div class="flex gap-6 group">
+                            <div
+                                class="w-16 h-16 shrink-0 bg-white shadow-lg rounded-2xl flex items-center justify-center group-hover:bg-secondary transition-all duration-500">
+                                <i class="fas fa-rocket text-2xl text-secondary group-hover:text-primary"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-lg font-bold text-secondary mb-2">Our Mission</h4>
+                                <p class="text-slate-600 leading-relaxed">
+                                    Bell Matriculation Higher Secondary School, a caring and collaborative learning institution, ensures that each student achieves intellectual and personal excellence, well prepared for his/her career pathways.
+                                </p>
+                            </div>
                         </div>
-                        <p class="font-bold text-secondary text-lg mb-1">Mrs. G. Pushpalatha Gunasingh</p>
-                        <p class="text-slate-500 text-sm uppercase tracking-wider font-medium">Director</p>
-                    </div>
-
-                    <div class="bg-white p-8 rounded-2xl shadow-sm border border-gray-100 text-center hover:shadow-xl transition-all duration-300 reveal group">
-                        <div class="w-20 h-20 bg-slate-50 border border-slate-100 rounded-full mx-auto mb-4 flex items-center justify-center text-3xl  text-secondary font-bold group-hover:bg-primary group-hover:text-secondary transition-colors">
-                            M
-                        </div>
-                        <p class="font-bold text-secondary text-lg mb-1">Mr. Charles Gnana Sekar Y</p>
-                        <p class="text-slate-500 text-sm uppercase tracking-wider font-medium">Principal</p>
-                    </div>
-
-                    <div class="bg-white p-8 rounded-2xl shadow-sm border border-gray-100 text-center hover:shadow-xl transition-all duration-300 reveal group">
-                        <div class="w-20 h-20 bg-slate-50 border border-slate-100 rounded-full mx-auto mb-4 flex items-center justify-center text-3xl  text-secondary font-bold group-hover:bg-primary group-hover:text-secondary transition-colors">
-                            M
-                        </div>
-                        <p class="font-bold text-secondary text-lg mb-1">Mrs. Vijaya Sunder</p>
-                        <p class="text-slate-500 text-sm uppercase tracking-wider font-medium text-[10px]">Administrative Officer</p>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
+
+    <section class="py-24 relative overflow-hidden bg-secondary">
+        <div class="absolute top-0 left-0 w-full opacity-10 pointer-events-none z-0">
+            <img src="images/Bell-School-building-3.png" class="w-screen max-w-none h-auto object-cover"
+                alt="Background Building Decor">
+        </div>
+        <div class="container mx-auto px-6 max-w-5xl relative z-10">
+            <div class="reveal text-center">
+                <div class="w-20 h-1 bg-primary mx-auto mb-10"></div>
+                <h2 class="text-primary text-sm font-black uppercase tracking-[0.3em] mb-12">Leadership Insight</h2>
+
+                <blockquote class="text-xl md:text-3xl text-white font-light italic leading-snug mb-12">
+                    "Educating the mind without educating the heart is <span class="text-primary">no education at
+                        all</span>."
+                </blockquote>
+
+                <div class="inline-flex items-center gap-4 text-left">
+                    <div
+                        class="w-16 h-16 rounded-full bg-primary/20 border border-primary/40 flex items-center justify-center text-primary font-bold">
+                        C</div>
+                    <div>
+                        <h5 class="text-xl font-bold text-white">Mr. Charles Gnana Sekar Y.</h5>
+                        <p class="text-primary/70 text-sm uppercase tracking-widest font-medium">Principal</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-14 bg-gradient-to-b from-white to-slate-50 overflow-hidden">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-14 reveal">
+                <span
+                    class="inline-block px-4 py-1.5 mb-4 text-[10px] font-black tracking-[0.3em] text-primary uppercase bg-primary/10 rounded-full">Leadership</span>
+                <h2 class="text-2xl md:text-3xl font-bold text-secondary mb-6">Board of Governors</h2>
+                <div class="w-24 h-1.5 bg-primary mx-auto rounded-full"></div>
+                <p class="mt-8 text-slate-500 max-w-xl mx-auto font-light leading-relaxed">
+                    Guided by visionaries and educators committed to nurturing the next generation of global leaders.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8">
+
+                <div class="reveal group transition-delay-100">
+                    <div
+                        class="relative p-8 rounded-[2rem] bg-white border border-slate-100 shadow-sm hover:shadow-2xl hover:-translate-y-2 transition-all duration-500 text-center">
+                        <div class="relative w-28 h-28 mx-auto mb-8">
+                            <div
+                                class="absolute inset-0 rounded-full border-2 border-dashed border-primary/30 group-hover:rotate-180 transition-transform duration-[3000ms]">
+                            </div>
+                            <div
+                                class="absolute inset-2 bg-gradient-to-tr from-secondary to-secondary/80 rounded-full shadow-lg flex items-center justify-center text-3xl text-primary font-serif italic border-4 border-white">
+                                D
+                            </div>
+                        </div>
+                        <div class="relative z-10">
+                            <h4
+                                class="font-bold text-secondary text-lg mb-3 group-hover:text-primary transition-colors">
+                                Dr. A. <br> Chelladhurai</h4>
+                            <p class="text-slate-400 text-[12px] font-black uppercase tracking-[0.2em]">Founder</p>
+                            <div class="h-0.5 w-0 group-hover:w-12 bg-primary mx-auto mt-4 transition-all duration-500">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="reveal group transition-delay-200">
+                    <div
+                        class="relative p-8 rounded-[2rem] bg-white border border-slate-100 shadow-sm hover:shadow-2xl hover:-translate-y-2 transition-all duration-500 text-center">
+                        <div class="relative w-28 h-28 mx-auto mb-8">
+                            <div
+                                class="absolute inset-0 rounded-full border-2 border-dashed border-primary/30 group-hover:rotate-180 transition-transform duration-[3000ms]">
+                            </div>
+                            <div
+                                class="absolute inset-2 bg-gradient-to-tr from-secondary to-secondary/80 rounded-full shadow-lg flex items-center justify-center text-3xl text-primary font-serif italic border-4 border-white">
+                                G
+                            </div>
+                        </div>
+                        <h4 class="font-bold text-secondary text-lg mb-3 group-hover:text-primary transition-colors">Mr.
+                            C. <br> Gunasingh</h4>
+                        <p class="text-slate-400 text-[12px] font-black uppercase tracking-[0.2em]">Correspondent</p>
+                        <div class="h-0.5 w-0 group-hover:w-12 bg-primary mx-auto mt-4 transition-all duration-500">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="reveal group transition-delay-300">
+                    <div
+                        class="relative p-8 rounded-[2rem] bg-white border border-slate-100 shadow-sm hover:shadow-2xl hover:-translate-y-2 transition-all duration-500 text-center">
+                        <div class="relative w-28 h-28 mx-auto mb-8">
+                            <div
+                                class="absolute inset-0 rounded-full border-2 border-dashed border-primary/30 group-hover:rotate-180 transition-transform duration-[3000ms]">
+                            </div>
+                            <div
+                                class="absolute inset-2 bg-gradient-to-tr from-secondary to-secondary/80 rounded-full shadow-lg flex items-center justify-center text-3xl text-primary font-serif italic border-4 border-white">
+                                P
+                            </div>
+                        </div>
+                        <h4 class="font-bold text-secondary text-lg mb-3 group-hover:text-primary transition-colors">
+                            Mrs. G. <br> Pushpalatha</h4>
+                        <p class="text-slate-400 text-[12px] font-black uppercase tracking-[0.2em]">Director</p>
+                        <div class="h-0.5 w-0 group-hover:w-12 bg-primary mx-auto mt-4 transition-all duration-500">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="reveal group transition-delay-400">
+                    <div
+                        class="relative p-8 rounded-[2rem] bg-white border border-slate-100 shadow-sm hover:shadow-2xl hover:-translate-y-2 transition-all duration-500 text-center">
+                        <div class="relative w-28 h-28 mx-auto mb-8">
+                            <div
+                                class="absolute inset-0 rounded-full border-2 border-dashed border-primary/30 group-hover:rotate-180 transition-transform duration-[3000ms]">
+                            </div>
+                            <div
+                                class="absolute inset-2 bg-gradient-to-tr from-secondary to-secondary/80 rounded-full shadow-lg flex items-center justify-center text-3xl text-primary font-serif italic border-4 border-white">
+                                C
+                            </div>
+                        </div>
+                        <h4 class="font-bold text-secondary text-lg mb-3 group-hover:text-primary transition-colors">Mr.
+                            <br> Charles Sekar</h4>
+                        <p class="text-slate-400 text-[12px] font-black uppercase tracking-[0.2em]">Principal</p>
+                        <div class="h-0.5 w-0 group-hover:w-12 bg-primary mx-auto mt-4 transition-all duration-500">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="reveal group transition-delay-500">
+                    <div
+                        class="relative p-8 rounded-[2rem] bg-white border border-slate-100 shadow-sm hover:shadow-2xl hover:-translate-y-2 transition-all duration-500 text-center">
+                        <div class="relative w-28 h-28 mx-auto mb-8">
+                            <div
+                                class="absolute inset-0 rounded-full border-2 border-dashed border-primary/30 group-hover:rotate-180 transition-transform duration-[3000ms]">
+                            </div>
+                            <div
+                                class="absolute inset-2 bg-gradient-to-tr from-secondary to-secondary/80 rounded-full shadow-lg flex items-center justify-center text-3xl text-primary font-serif italic border-4 border-white">
+                                V
+                            </div>
+                        </div>
+                        <h4 class="font-bold text-secondary text-lg mb-3 group-hover:text-primary transition-colors">
+                            Mrs. <br> Vijaya Sunder</h4>
+                        <p class="text-slate-400 text-[12px] font-black uppercase tracking-[0.2em]">Admin Officer</p>
+                        <div class="h-0.5 w-0 group-hover:w-12 bg-primary mx-auto mt-4 transition-all duration-500">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <style>
+        /* Add these to your stylesheet if not already present */
+        .transition-delay-100 {
+            transition-delay: 100ms;
+        }
+
+        .transition-delay-200 {
+            transition-delay: 200ms;
+        }
+
+        .transition-delay-300 {
+            transition-delay: 300ms;
+        }
+
+        .transition-delay-400 {
+            transition-delay: 400ms;
+        }
+
+        .transition-delay-500 {
+            transition-delay: 500ms;
+        }
+
+        .reveal {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .reveal.active {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    </style>
 
     <script>
-        // Simple Intersection Observer to replicate "whileInView"
-        function reveal() {
-            var reveals = document.querySelectorAll(".reveal");
-            for (var i = 0; i < reveals.length; i++) {
-                var windowHeight = window.innerHeight;
-                var elementTop = reveals[i].getBoundingClientRect().top;
-                var elementVisible = 150;
-                if (elementTop < windowHeight - elementVisible) {
-                    reveals[i].classList.add("active");
+        document.addEventListener('DOMContentLoaded', function () {
+            // 1. Entrance Sequence
+            const heroTitle = document.getElementById('hero-title');
+            const heroSubtitle = document.getElementById('hero-subtitle');
+            const heroBreadcrumb = document.getElementById('breadcrumb');
+            const heroBg = document.getElementById('hero-bg');
+
+            setTimeout(() => {
+                if (heroBreadcrumb) {
+                    heroBreadcrumb.classList.replace('opacity-0', 'opacity-100');
+                    heroBreadcrumb.classList.remove('-translate-y-4');
                 }
+                if (heroTitle) {
+                    heroTitle.classList.replace('opacity-0', 'opacity-100');
+                    heroTitle.classList.remove('translate-y-10');
+                }
+                if (heroSubtitle) {
+                    setTimeout(() => {
+                        heroSubtitle.classList.replace('opacity-0', 'opacity-100');
+                        heroSubtitle.classList.remove('translate-y-10');
+                    }, 300);
+                }
+                if (heroBg) heroBg.classList.remove('scale-110');
+            }, 300);
+
+            // 2. High-Performance Scroll Engine (Parallax + Reveal)
+            const reveals = document.querySelectorAll(".reveal");
+            const counters = document.querySelectorAll(".counter");
+
+            function handleScroll() {
+                const scroll = window.pageYOffset;
+
+                // Hero Parallax
+                if (scroll < 800 && heroBg) {
+                    heroBg.style.transform = `translate3d(0, ${scroll * 0.35}px, 0)`;
+                }
+
+                // Reveal Handler
+                reveals.forEach(el => {
+                    const elementTop = el.getBoundingClientRect().top;
+                    if (elementTop < window.innerHeight - 100) {
+                        el.classList.add("active");
+
+                        // Trigger counters within active section
+                        const sectionCounters = el.querySelectorAll(".counter:not(.counted)");
+                        sectionCounters.forEach(counter => {
+                            counter.classList.add("counted");
+                            animateCounter(counter);
+                        });
+                    }
+                });
             }
-        }
-        window.addEventListener("scroll", reveal);
-        // Initial check
-        window.onload = reveal;
+
+            function animateCounter(el) {
+                const target = parseInt(el.getAttribute('data-target'));
+                const duration = 2000;
+                const startTime = performance.now();
+
+                function update(now) {
+                    const elapsed = now - startTime;
+                    const progress = Math.min(elapsed / duration, 1);
+                    const easeOut = 1 - Math.pow(1 - progress, 3);
+                    const current = Math.floor(easeOut * target);
+
+                    el.innerText = current.toLocaleString();
+
+                    if (progress < 1) requestAnimationFrame(update);
+                    else el.innerText = target.toLocaleString();
+                }
+                requestAnimationFrame(update);
+            }
+
+            window.addEventListener("scroll", handleScroll, { passive: true });
+            handleScroll(); // Initial Check
+        });
     </script>
+
+
+
+    <!-- Footer -->
+    <footer class="bg-green-900 text-white pt-14 pb-8">
+        <div class="max-w-7xl mx-auto px-4 md:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
+                <!-- About -->
+                <div class="space-y-6">
+                    <div class="flex items-center gap-3 bg-white/10 p-4 rounded-xl w-fit">
+                        <img src="images/Bell-Logo_1.jpg" alt="Bell School Logo"
+                            class="h-12 w-auto bg-white rounded-md p-1">
+                        <div>
+                            <h3 class="text-white font-bold text-lg">Bell School</h3>
+                            <p class="text-white/60 text-[10px] uppercase tracking-wider">Est. 1992</p>
+                        </div>
+                    </div>
+                    <p class="text-white/70 text-sm leading-relaxed">
+                        A caring and collaborative learning institution, preparing students for personal and
+                        professional success in the global community.
+                    </p>
+                    <div class="flex gap-4">
+                        <a href="#"
+                            class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-primary hover:text-dark transition-all">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#"
+                            class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-primary hover:text-dark transition-all">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#"
+                            class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-primary hover:text-dark transition-all">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                        <a href="#"
+                            class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-primary hover:text-dark transition-all">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div>
+                    <h4 class="text-primary font-bold text-xl mb-6">Quick Links</h4>
+                    <ul class="space-y-3 text-sm text-white/80">
+                        <li><a href="about.html"
+                                class="hover:text-primary transition-colors hover:translate-x-1 inline-block">About
+                                Us</a></li>
+                        <li><a href="academic.html"
+                                class="hover:text-primary transition-colors hover:translate-x-1 inline-block">Academics</a>
+                        </li>
+                        <li><a href="admission.html"
+                                class="hover:text-primary transition-colors hover:translate-x-1 inline-block">Admission
+                                Process</a></li>
+                        <li><a href="facilities.html"
+                                class="hover:text-primary transition-colors hover:translate-x-1 inline-block">Campus
+                                Facilities</a></li>
+                        <li><a href="gallery.html"
+                                class="hover:text-primary transition-colors hover:translate-x-1 inline-block">Photo
+                                Gallery</a></li>
+                        <li><a href="careers.html"
+                                class="hover:text-primary transition-colors hover:translate-x-1 inline-block">Careers</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Contact Info -->
+                <div>
+                    <h4 class="text-primary font-bold text-xl mb-6">Contact Us</h4>
+                    <ul class="space-y-4 text-sm text-white/80">
+                        <li class="flex items-center gap-3">
+                            <i class="fas fa-phone-alt text-primary shrink-0"></i>
+                            <a href="tel:+914622574117" class="hover:text-white transition-colors">+91 (462) 257
+                                4117</a>
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <i class="fab fa-whatsapp text-primary shrink-0"></i>
+                            <a href="tel:+919944674550" class="hover:text-white transition-colors">+91 99446 74550</a>
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <i class="far fa-envelope text-primary shrink-0"></i>
+                            <a href="mailto:bellschool1992@gmail.com"
+                                class="hover:text-white transition-colors">bellschool1992@gmail.com</a>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <i class="fas fa-map-marker-alt text-primary shrink-0 mt-1"></i>
+                            <span>Tiruchendur Road,<br> Kamaraj Nagar, Palayankottai,<br> Tirunelveli - 627 002</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- School Hours -->
+                <div>
+                    <h4 class="text-primary font-bold text-xl mb-6">School Hours</h4>
+                    <div class="bg-white/5 p-6 rounded-lg space-y-3">
+                        <div>
+                            <p class="text-[10px] text-white/60 mb-1 uppercase tracking-widest">Pre-KG to UKG</p>
+                            <p class="text-sm font-medium">9:00 AM - 3:00 PM</p>
+                        </div>
+                        <div>
+                            <p class="text-[10px] text-white/60 mb-1 uppercase tracking-widest">Classes 1 to 9</p>
+                            <p class="text-sm font-medium">8:45 AM - 4:10 PM</p>
+                        </div>
+                        <div>
+                            <p class="text-[10px] text-white/60 mb-1 uppercase tracking-widest">Classes 10 to 12</p>
+                            <p class="text-sm font-medium">8:00 AM - 5:00 PM</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="border-t border-white/10 pt-8 text-center">
+                <p class="text-[10px] text-white/40 uppercase tracking-widest">
+                    &copy; <span id="current-year"></span> Bell Matriculation Higher Secondary School. All rights
+                    reserved.
+                </p>
+                <p class="text-[10px] text-white/40 mt-2">
+                    Designed with <i class="fas fa-heart text-red-500"></i> for EDU WEB TECHNOLOGIES
+                </p>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Back to Top Button -->
+    <button id="backToTop"
+        class="fixed bottom-8 right-8 w-14 h-14 bg-secondary text-white rounded-full shadow-2xl hidden hover:bg-green-700 transition-all hover:scale-110 z-40">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+
+    <script src="js/main.js"></script>
+
+
+
+
+
+
 </body>
+
 </html>

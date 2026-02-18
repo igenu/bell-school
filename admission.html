@@ -1,139 +1,637 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Admission | Bell Matriculation Higher Secondary School</title>
+    <title>Bell Matriculation Higher Secondary School | Excellence Since 1992</title>
+    <link rel="icon" type="image/jpeg" href="images/Bell-Logo_1.jpg">
+
+    <link rel="shortcut icon" href="images/Bell-Logo_1.jpg" type="image/x-icon">
+
+    <link rel="apple-touch-icon" href="images/Bell-Logo_1.jpg">
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700;800;900&family=Noto+Serif:wght@400;600;700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        primary: '#FFD700',
-                        secondary: '#1e293b',
-                        accent: '#f97316',
-                    },
-                    fontFamily: {
-                        serif: ['Playfair Display', 'serif'],
-                        sans: ['Inter', 'sans-serif'],
-                    }
-                }
-            }
-        }
-    </script>
+    <link rel="stylesheet" href="css/style.css">
+
 </head>
-<body class="bg-white ">
 
-    <div class="pt-24 pb-16 min-h-screen">
-        <div class="container mx-auto px-6 max-w-7xl">
-            
-            <div class="text-center mb-16">
-                <span class="text-sm font-bold uppercase tracking-widest mb-2 block text-accent">Join Our Family</span>
-                <h2 class="text-4xl md:text-5xl  font-bold text-secondary">Admission Process</h2>
-                <div class="h-1 w-20 bg-primary mt-6 mx-auto"></div>
-            </div>
-
-            <div class="grid lg:grid-cols-2 gap-16 mb-20">
-                <div class="flex flex-col justify-center">
-                    <h3 class="text-3xl font-bold text-secondary mb-6">Welcome to Bell School</h3>
-                    <div class="text-slate-500 mb-8 space-y-4 text-lg leading-relaxed">
-                        <p>
-                            We appreciate your interest in Bell Matriculation Higher Secondary School. 
-                            We seek to admit students who will thrive in our academic environment and contribute 
-                            positively to our community.
-                        </p>
-                        <p>
-                            Admissions are open for the academic year <strong>2024-2025</strong>. 
-                            Seats are limited, so we encourage early application.
-                        </p>
-                    </div>
-                    
-                    <div class="bg-orange-50 p-8 rounded-2xl border border-orange-100 shadow-sm">
-                        <h4 class="font-bold text-accent mb-6 flex items-center gap-3 text-lg">
-                            <i class="fas fa-check-circle"></i> Age Criteria (as of June 1st)
-                        </h4>
-                        <ul class="space-y-4">
-                            <li class="flex justify-between items-center text-slate-700 border-b border-orange-200 pb-3">
-                                <span>Pre-KG</span> <span class="font-bold bg-white px-3 py-1 rounded-full shadow-sm">2+ Years</span>
-                            </li>
-                            <li class="flex justify-between items-center text-slate-700 border-b border-orange-200 pb-3">
-                                <span>LKG</span> <span class="font-bold bg-white px-3 py-1 rounded-full shadow-sm">3+ Years</span>
-                            </li>
-                            <li class="flex justify-between items-center text-slate-700 border-b border-orange-200 pb-3">
-                                <span>UKG</span> <span class="font-bold bg-white px-3 py-1 rounded-full shadow-sm">4+ Years</span>
-                            </li>
-                            <li class="flex justify-between items-center text-slate-700">
-                                <span>Class I</span> <span class="font-bold bg-white px-3 py-1 rounded-full shadow-sm">5+ Years</span>
-                            </li>
-                        </ul>
-                    </div>
+<body class="smooth-scroll text-slate-900 overflow-x-hidden bg-white text-[14px]">
+    <!-- Header -->
+    <header id="main-header" class="fixed top-0 left-0 right-0 z-50 transition-all duration-300">
+        <!-- Top Bar -->
+        <div id="top-bar" class="bg-dark text-white transition-all duration-300 opacity-100 overflow-hidden">
+            <div class="max-w-7xl mx-auto px-4 md:px-8 flex justify-between items-center text-sm font-medium py-2">
+                <div class="flex items-center gap-6">
+                    <a href="tel:+914622574117"
+                        class="flex items-center gap-2 hover:text-primary transition-colors text-[11px]">
+                        <i class="fas fa-phone-alt text-[10px]"></i>
+                        <div>+91 (462) 257 4117</div>
+                    </a>
+                    <a href="mailto:bellschool1992@gmail.com"
+                        class="hidden sm:flex items-center gap-2 hover:text-primary transition-colors text-[11px]">
+                        <i class="far fa-envelope text-[10px]"></i>
+                        <div>bellschool1992@gmail.com</div>
+                    </a>
                 </div>
-
-                <div>
-                    <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=1000&auto=format&fit=crop" 
-                         alt="Admissions Process" 
-                         class="rounded-3xl shadow-2xl w-full h-80 object-cover mb-8">
-                    
-                    <div class="bg-slate-50 p-8 rounded-3xl border border-slate-100">
-                        <h4 class="font-bold text-secondary mb-6 flex items-center gap-3 text-lg">
-                            <i class="fas fa-file-alt text-primary"></i> Documents Required
-                        </h4>
-                        <ul class="grid grid-cols-1 sm:grid-cols-2 gap-y-4 gap-x-6 text-sm text-slate-600">
-                            <li class="flex items-start gap-3">
-                                <span class="w-2 h-2 bg-primary rounded-full mt-1.5 shrink-0"></span>
-                                Birth Certificate (Original + Copy)
-                            </li>
-                            <li class="flex items-start gap-3">
-                                <span class="w-2 h-2 bg-primary rounded-full mt-1.5 shrink-0"></span>
-                                Aadhar Card Copy
-                            </li>
-                            <li class="flex items-start gap-3">
-                                <span class="w-2 h-2 bg-primary rounded-full mt-1.5 shrink-0"></span>
-                                Transfer Certificate (TC)
-                            </li>
-                            <li class="flex items-start gap-3">
-                                <span class="w-2 h-2 bg-primary rounded-full mt-1.5 shrink-0"></span>
-                                Passport Size Photos (4)
-                            </li>
-                            <li class="flex items-start gap-3">
-                                <span class="w-2 h-2 bg-primary rounded-full mt-1.5 shrink-0"></span>
-                                Previous Year Report Card
-                            </li>
-                            <li class="flex items-start gap-3">
-                                <span class="w-2 h-2 bg-primary rounded-full mt-1.5 shrink-0"></span>
-                                Community Certificate
-                            </li>
-                        </ul>
-                    </div>
+                <div class="flex items-center gap-4">
+                    <span class="hidden sm:inline opacity-80 text-[11px]">Tirunelveli, Tamil Nadu</span>
+                    <a href="admission.html"
+                        class="bg-primary text-dark px-3 py-1 rounded-md font-bold hover:bg-white transition-colors uppercase tracking-wider text-[10px]">
+                        Apply Now
+                    </a>
                 </div>
             </div>
+        </div>
 
-            
-            <div class="bg-secondary text-white p-10 md:p-16 rounded-[2.5rem] text-center shadow-2xl relative overflow-hidden">
-                <div class="relative z-10">
-                    <h2 class="text-3xl md:text-4xl  font-bold mb-4">Ready to Apply?</h2>
-                    <p class="mb-10 opacity-70 max-w-2xl mx-auto text-lg">
-                        You can visit our admission office during working hours or contact us for more details. 
-                        Application forms are available at the school office.
-                    </p>
-                    <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
-                        <a href="/contact" class="w-full sm:w-auto px-10 py-4 bg-primary text-secondary font-bold rounded-xl hover:bg-white transition-all transform hover:-translate-y-1 shadow-lg">
-                            Contact Admission Office
-                        </a>
-                        <button class="w-full sm:w-auto px-10 py-4 bg-white/10 text-white font-bold rounded-xl hover:bg-white/20 transition-all flex items-center justify-center gap-3 backdrop-blur-sm border border-white/10">
-                            <i class="fas fa-download text-sm"></i> Download Prospectus
-                        </button>
+        <!-- Navigation -->
+        <nav id="navbar" class="bg-white backdrop-blur-md transition-all duration-300 shadow-sm py-4">
+            <div class="max-w-7xl mx-auto px-4 md:px-8 flex items-center justify-between">
+                <a href="/" class="flex items-center gap-3 group">
+                    <img id="nav-logo" src="images/Bell-Logo_1.jpg" alt="Bell School Logo"
+                        class="transition-all duration-300 object-contain h-10 w-auto -ml-2">
+                    <div class="flex flex-col">
+                        <span id="brand-name"
+                            class="font-bold text-secondary leading-tight transition-all duration-300 text-xl md:text-lg">
+                            BELL Matriculation
+                        </span>
+                        <span id="brand-subtext"
+                            class="text-[10px] md:text-xs text-[#527a63] uppercase tracking-widest hidden md:block transition-all">
+                            Higher Secondary School
+                        </span>
+                    </div>
+                </a>
+
+                <div class="hidden lg:flex items-center gap-1">
+                    <a href="/"
+                        class="nav-link px-4 py-2 rounded-full text-[13px] font-semibold text-[#1a7440] bg-[#1a74400d]">Home</a>
+                    <a href="about.html"
+                        class="nav-link px-4 py-2 rounded-full text-[13px] font-medium text-gray-600 hover:text-[#1a7440] hover:bg-[#1a74400d] transition-all">About</a>
+                    <a href="academic.html"
+                        class="nav-link px-4 py-2 rounded-full text-[13px] font-medium text-gray-600 hover:text-[#1a7440] hover:bg-[#1a74400d] transition-all">Academic</a>
+                    <a href="admission.html"
+                        class="nav-link px-4 py-2 rounded-full text-[13px] font-medium text-gray-600 hover:text-[#1a7440] hover:bg-[#1a74400d] transition-all">Admission</a>
+                    <a href="facilities.html"
+                        class="nav-link px-4 py-2 rounded-full text-[13px] font-medium text-gray-600 hover:text-[#1a7440] hover:bg-[#1a74400d] transition-all">Facilities</a>
+                    <a href="gallery.html"
+                        class="nav-link px-4 py-2 rounded-full text-[13px] font-medium text-gray-600 hover:text-[#1a7440] hover:bg-[#1a74400d] transition-all">Gallery</a>
+                    <a href="careers.html"
+                        class="nav-link px-4 py-2 rounded-full text-[13px] font-medium text-gray-600 hover:text-[#1a7440] hover:bg-[#1a74400d] transition-all">Careers</a>
+                    <a href="contact.html"
+                        class="nav-link px-4 py-2 rounded-full text-[13px] font-medium text-gray-600 hover:text-[#1a7440] hover:bg-[#1a74400d] transition-all">Contact</a>
+                </div>
+
+                <button id="mobile-menu-toggle" class="lg:hidden p-2 text-dark hover:bg-gray-100 rounded-md">
+                    <i id="menu-icon" class="fas fa-bars text-xl"></i>
+                </button>
+            </div>
+
+            <!-- Mobile Menu -->
+            <div id="mobile-menu" class="hidden lg:hidden absolute top-full left-0 right-0 bg-white border-b shadow-xl">
+                <div class="flex flex-col p-4 space-y-2">
+                    <a href="/" class="px-4 py-3 rounded-lg text-base font-semibold bg-gray-100 text-dark">Home</a>
+                    <a href="about.html"
+                        class="px-4 py-3 rounded-lg text-base font-medium text-gray-600 hover:bg-gray-50">About</a>
+                    <a href="academic.html"
+                        class="px-4 py-3 rounded-lg text-base font-medium text-gray-600 hover:bg-gray-50">Academic</a>
+                    <a href="admission.html"
+                        class="px-4 py-3 rounded-lg text-base font-medium text-gray-600 hover:bg-gray-50">Admission</a>
+                    <a href="facilities.html"
+                        class="px-4 py-3 rounded-lg text-base font-medium text-gray-600 hover:bg-gray-50">Facilities</a>
+                    <a href="gallery.html"
+                        class="px-4 py-3 rounded-lg text-base font-medium text-gray-600 hover:bg-gray-50">Gallery</a>
+                    <a href="careers.html"
+                        class="px-4 py-3 rounded-lg text-base font-medium text-gray-600 hover:bg-gray-50">Careers</a>
+                    <a href="contact.html"
+                        class="px-4 py-3 rounded-lg text-base font-medium text-gray-600 hover:bg-gray-50">Contact</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section
+        class="relative h-[450px] md:h-[650px] flex items-center justify-center overflow-hidden bg-secondary mt-[80px]">
+        <div class="absolute inset-0 z-0">
+            <img src="images/Bell-School-about-4.png" alt="About Bell School"
+                class="w-full h-full object-cover scale-110 transition-transform duration-[3000ms] ease-out origin-center"
+                id="hero-bg">
+            <div class="absolute inset-0 bg-gradient-to-b from-black/50 via-secondary/70 to-secondary"></div>
+        </div>
+
+        <div class="absolute top-20 left-10 w-48 h-48 bg-primary/15 rounded-full blur-3xl animate-blob"></div>
+        <div
+            class="absolute bottom-10 right-10 w-72 h-72 bg-white/10 rounded-full blur-3xl animate-blob animation-delay-2000">
+        </div>
+
+        <div class="relative z-10 text-center text-white px-6 max-w-4xl">
+            <nav class="inline-flex items-center gap-3 mb-8 px-5 py-2 bg-white/10 backdrop-blur-xl rounded-full border border-white/20 opacity-0 -translate-y-4 transition-all duration-1000"
+                id="breadcrumb">
+                <a href="index.html"
+                    class="text-primary hover:text-white transition-colors font-semibold text-sm">Home</a>
+                <span class="w-1.5 h-1.5 bg-white/40 rounded-full"></span>
+                <span class="text-white/80 text-sm font-medium tracking-wide">Admission  </span>
+            </nav>
+
+            <h1 class="text-2xl md:text-4xl font-bold mb-6 tracking-tight opacity-0 translate-y-10 transition-all duration-1000 ease-out"
+                id="hero-title">
+                Begin Your   
+                <span class="relative inline-block text-primary italic">Journey 
+                    <svg class="absolute -bottom-2 left-0 w-full h-4" viewBox="0 0 100 10" preserveAspectRatio="none">
+                        <path d="M0 5 Q 25 0 50 5 T 100 5" stroke="#FFD700" stroke-width="3" fill="transparent" />
+                    </svg>
+                </span>
+                with Us
+            </h1>
+
+            <p class="max-w-2xl mx-auto text-white/90 text-lg md:text-xl font-light leading-relaxed opacity-0 translate-y-10 transition-all duration-1000 delay-300"
+                id="hero-subtitle">
+                Join a community dedicated to excellence. Admissions are now <span class="text-primary font-bold">Open for 2026-27</span>. Secure your child's future at Tirunelveli's premier matriculation institution.
+            </p>
+        </div>
+
+        <div class="absolute bottom-0 left-0 w-full overflow-hidden leading-[0]">
+            <svg class="relative block w-[calc(100%+1.3px)] h-[80px]" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path
+                    d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.83C1132.19,118.92,1055.71,111.31,985.66,92.83Z"
+                    fill="#F9FAFB"></path>
+            </svg>
+        </div>
+    </section>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            // 1. Entrance Sequence
+            const heroTitle = document.getElementById('hero-title');
+            const heroSubtitle = document.getElementById('hero-subtitle');
+            const heroBreadcrumb = document.getElementById('breadcrumb');
+            const heroBg = document.getElementById('hero-bg');
+
+            setTimeout(() => {
+                if (heroBreadcrumb) {
+                    heroBreadcrumb.classList.replace('opacity-0', 'opacity-100');
+                    heroBreadcrumb.classList.remove('-translate-y-4');
+                }
+                if (heroTitle) {
+                    heroTitle.classList.replace('opacity-0', 'opacity-100');
+                    heroTitle.classList.remove('translate-y-10');
+                }
+                if (heroSubtitle) {
+                    setTimeout(() => {
+                        heroSubtitle.classList.replace('opacity-0', 'opacity-100');
+                        heroSubtitle.classList.remove('translate-y-10');
+                    }, 300);
+                }
+                if (heroBg) heroBg.classList.remove('scale-110');
+            }, 300);
+
+            // 2. High-Performance Scroll Engine (Parallax + Reveal)
+            const reveals = document.querySelectorAll(".reveal");
+            const counters = document.querySelectorAll(".counter");
+
+            function handleScroll() {
+                const scroll = window.pageYOffset;
+
+                // Hero Parallax
+                if (scroll < 800 && heroBg) {
+                    heroBg.style.transform = `translate3d(0, ${scroll * 0.35}px, 0)`;
+                }
+
+                // Reveal Handler
+                reveals.forEach(el => {
+                    const elementTop = el.getBoundingClientRect().top;
+                    if (elementTop < window.innerHeight - 100) {
+                        el.classList.add("active");
+
+                        // Trigger counters within active section
+                        const sectionCounters = el.querySelectorAll(".counter:not(.counted)");
+                        sectionCounters.forEach(counter => {
+                            counter.classList.add("counted");
+                            animateCounter(counter);
+                        });
+                    }
+                });
+            }
+
+            function animateCounter(el) {
+                const target = parseInt(el.getAttribute('data-target'));
+                const duration = 2000;
+                const startTime = performance.now();
+
+                function update(now) {
+                    const elapsed = now - startTime;
+                    const progress = Math.min(elapsed / duration, 1);
+                    const easeOut = 1 - Math.pow(1 - progress, 3);
+                    const current = Math.floor(easeOut * target);
+
+                    el.innerText = current.toLocaleString();
+
+                    if (progress < 1) requestAnimationFrame(update);
+                    else el.innerText = target.toLocaleString();
+                }
+                requestAnimationFrame(update);
+            }
+
+            window.addEventListener("scroll", handleScroll, { passive: true });
+            handleScroll(); // Initial Check
+        });
+    </script>
+
+    <div class="pt-24 pb-16 bg-slate-50/50 min-h-screen overflow-hidden">
+    <div class=" mx-auto px-6 max-w-7xl">
+        
+        <div class="text-center mb-20 reveal">
+            <span class="inline-block px-4 py-1.5 mb-4 text-[10px] font-black tracking-[0.3em] text-primary uppercase bg-primary/10 rounded-full">Enrollment 2026-27</span>
+            <h2 class="text-xl md:text-3xl font-extrabold text-secondary tracking-tight">The Path to Bell School</h2>
+            <div class="h-1.5 w-24 bg-primary mt-6 mx-auto rounded-full"></div>
+            <p class="mt-8 text-slate-500 max-w-2xl mx-auto leading-relaxed">
+                Joining our community is a simple, transparent process designed to ensure a perfect fit for your child's educational future.
+            </p>
+        </div>
+
+        <div class="relative mb-32">
+            <div class="absolute left-1/2 top-0 bottom-0 w-px bg-slate-200 hidden md:block"></div>
+
+            <div class="space-y-16">
+                <div class="relative flex flex-col md:flex-row items-center group reveal">
+                    <div class="flex-1 md:text-right md:pr-16 order-2 md:order-1">
+                        <h4 class="text-xl font-bold text-secondary mb-2 group-hover:text-primary transition-colors">Enquiry & Interaction</h4>
+                        <p class="text-slate-500 leading-relaxed">Submit an online enquiry or visit our campus. We invite parents for a personal interaction to understand our vision and curriculum.</p>
+                    </div>
+                    <div class="relative z-10 w-12 h-12 bg-white border-4 border-primary rounded-full flex items-center justify-center text-secondary font-black shadow-xl order-1 md:order-2 mb-4 md:mb-0">1</div>
+                    <div class="flex-1 md:pl-16 order-3">
+                        <span class="text-primary font-black text-6xl opacity-20">01</span>
                     </div>
                 </div>
+
+                <div class="relative flex flex-col md:flex-row items-center group reveal">
+                    <div class="flex-1 md:pr-16 order-3 md:order-1 hidden md:block text-right">
+                        <span class="text-primary font-black text-6xl opacity-20">02</span>
+                    </div>
+                    <div class="relative z-10 w-12 h-12 bg-white border-4 border-primary rounded-full flex items-center justify-center text-secondary font-black shadow-xl order-1 md:order-2 mb-4 md:mb-0">2</div>
+                    <div class="flex-1 md:pl-16 order-2">
+                        <h4 class="text-xl font-bold text-secondary mb-2 group-hover:text-primary transition-colors">Application Submission</h4>
+                        <p class="text-slate-500 leading-relaxed">Obtain the prospectus and application form from the school office. Submit the completed form with the necessary documentation.</p>
+                    </div>
+                </div>
+
+                <div class="relative flex flex-col md:flex-row items-center group reveal">
+                    <div class="flex-1 md:text-right md:pr-16 order-2 md:order-1">
+                        <h4 class="text-xl font-bold text-secondary mb-2 group-hover:text-primary transition-colors">Assessment (Grade I+)</h4>
+                        <p class="text-slate-500 leading-relaxed">For Primary and Senior wings, a simple diagnostic assessment is conducted to identify the student's current learning level.</p>
+                    </div>
+                    <div class="relative z-10 w-12 h-12 bg-white border-4 border-primary rounded-full flex items-center justify-center text-secondary font-black shadow-xl order-1 md:order-2 mb-4 md:mb-0">3</div>
+                    <div class="flex-1 md:pl-16 order-3">
+                        <span class="text-primary font-black text-6xl opacity-20">03</span>
+                    </div>
+                </div>
+
+                <div class="relative flex flex-col md:flex-row items-center group reveal">
+                    <div class="flex-1 md:pr-16 order-3 md:order-1 hidden md:block text-right">
+                        <span class="text-primary font-black text-6xl opacity-20">04</span>
+                    </div>
+                    <div class="relative z-10 w-12 h-12 bg-white border-4 border-primary rounded-full flex items-center justify-center text-secondary font-black shadow-xl order-1 md:order-2 mb-4 md:mb-0">4</div>
+                    <div class="flex-1 md:pl-16 order-2">
+                        <h4 class="text-xl font-bold text-secondary mb-2 group-hover:text-primary transition-colors">Admission Confirmation</h4>
+                        <p class="text-slate-500 leading-relaxed">Upon successful review, admission is confirmed. Welcome to the Bell School family! Final fee payment completes the process.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid lg:grid-cols-5 gap-8 mb-24">
+            <div class="lg:col-span-2 reveal">
+                <div class="bg-secondary p-8 md:p-12 rounded-[2.5rem] text-white h-full shadow-2xl relative overflow-hidden">
+                    <div class="relative z-10">
+                        <h3 class="text-xl font-bold mb-8 flex items-center gap-3">
+                            <i class="fas fa-hourglass-half text-primary"></i> Age Eligibility
+                        </h3>
+                        <div class="space-y-6">
+                            <div class="flex justify-between items-center border-b border-white/10 pb-4">
+                                <span class="text-white/70">Pre-KG</span>
+                                <span class="bg-primary text-secondary px-4 py-1 rounded-full font-bold text-sm">2+ Years</span>
+                            </div>
+                            <div class="flex justify-between items-center border-b border-white/10 pb-4">
+                                <span class="text-white/70">LKG</span>
+                                <span class="bg-white/10 px-4 py-1 rounded-full font-bold text-sm">3+ Years</span>
+                            </div>
+                            <div class="flex justify-between items-center border-b border-white/10 pb-4">
+                                <span class="text-white/70">UKG</span>
+                                <span class="bg-white/10 px-4 py-1 rounded-full font-bold text-sm">4+ Years</span>
+                            </div>
+                            <div class="flex justify-between items-center">
+                                <span class="text-white/70">Class I</span>
+                                <span class="bg-white/10 px-4 py-1 rounded-full font-bold text-sm">5+ Years</span>
+                            </div>
+                        </div>
+                        <p class="mt-8 text-xs text-white/40 italic">* Calculated as of June 1st of the academic year.</p>
+                    </div>
+                    <div class="absolute -bottom-10 -right-10 w-40 h-40 bg-white/5 rounded-full"></div>
+                </div>
+            </div>
+
+            <div class="lg:col-span-3 reveal transition-delay-200">
+                <div class="bg-white p-8 md:p-12 rounded-[2.5rem] border border-slate-100 shadow-xl h-full">
+                    <h3 class="text-xl font-bold text-secondary mb-8 flex items-center gap-3">
+                        <i class="fas fa-file-invoice text-primary"></i> Required Essentials
+                    </h3>
+                    <div class="grid sm:grid-cols-2 gap-6">
+                        <div class="flex items-center gap-4 p-4 bg-slate-50 rounded-2xl group hover:bg-primary/5 transition-colors">
+                            <div class="w-10 h-10 bg-white rounded-xl shadow-sm flex items-center justify-center text-primary group-hover:scale-110 transition-transform">
+                                <i class="fas fa-certificate"></i>
+                            </div>
+                            <span class="text-sm font-medium text-slate-600">Birth Certificate</span>
+                        </div>
+                        <div class="flex items-center gap-4 p-4 bg-slate-50 rounded-2xl group hover:bg-primary/5 transition-colors">
+                            <div class="w-10 h-10 bg-white rounded-xl shadow-sm flex items-center justify-center text-primary group-hover:scale-110 transition-transform">
+                                <i class="fas fa-id-card"></i>
+                            </div>
+                            <span class="text-sm font-medium text-slate-600">Aadhar Card Copy</span>
+                        </div>
+                        <div class="flex items-center gap-4 p-4 bg-slate-50 rounded-2xl group hover:bg-primary/5 transition-colors">
+                            <div class="w-10 h-10 bg-white rounded-xl shadow-sm flex items-center justify-center text-primary group-hover:scale-110 transition-transform">
+                                <i class="fas fa-exchange-alt"></i>
+                            </div>
+                            <span class="text-sm font-medium text-slate-600">Transfer Certificate</span>
+                        </div>
+                        <div class="flex items-center gap-4 p-4 bg-slate-50 rounded-2xl group hover:bg-primary/5 transition-colors">
+                            <div class="w-10 h-10 bg-white rounded-xl shadow-sm flex items-center justify-center text-primary group-hover:scale-110 transition-transform">
+                                <i class="fas fa-camera"></i>
+                            </div>
+                            <span class="text-sm font-medium text-slate-600">4 Passport Photos</span>
+                        </div>
+                    </div>
+                    
+                    <div class="mt-8 p-4 bg-primary/5 border border-primary/20 rounded-2xl flex items-start gap-4">
+                        <i class="fas fa-info-circle text-primary mt-1"></i>
+                        <p class="text-xs text-slate-500 leading-relaxed">
+                            <strong>Note:</strong> Students from other boards (CBSE/ICSE) must provide a countersigned TC. Community certificates are required for specific scholarship eligibility.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-gradient-to-br from-secondary to-slate-900 text-white p-10 md:p-10 rounded-[3rem] text-center shadow-2xl relative overflow-hidden reveal">
+            <div class="absolute inset-0 opacity-10" style="background-image: radial-gradient(#FFD700 1px, transparent 1px); background-size: 30px 30px;"></div>
+            
+            <div class="relative z-10">
+                <h2 class="text-2xl md:text-3xl font-black mb-6">Take the First Step Today</h2>
+                <p class=" opacity-80 max-w-2xl mx-auto font-light">
+                    Visit our campus and witness the environment where your child will flourish. Admission office is open from <span class="text-primary font-bold">9:00 AM to 5:00 PM</span>.
+                </p>
                 
-                <div class="absolute top-0 right-0 w-64 h-64 bg-primary/5 rounded-full -mr-32 -mt-32"></div>
-                <div class="absolute bottom-0 left-0 w-48 h-48 bg-white/5 rounded-full -ml-24 -mb-24"></div>
+                <!-- <div class="flex flex-col sm:flex-row gap-6 justify-center items-center">
+                    <a href="/contact" class="group w-full sm:w-auto px-12 py-5 bg-primary text-secondary font-black rounded-2xl hover:bg-white transition-all transform hover:-translate-y-1 shadow-2xl flex items-center justify-center gap-3">
+                        Inquire Online <i class="fas fa-arrow-right group-hover:translate-x-1 transition-transform"></i>
+                    </a>
+                    <button class="w-full sm:w-auto px-12 py-5 bg-white/10 text-white font-bold rounded-2xl hover:bg-white/20 transition-all flex items-center justify-center gap-3 backdrop-blur-md border border-white/20">
+                        <i class="fas fa-download text-sm"></i> 2026 Prospectus
+                    </button>
+                </div> -->
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<section id="enquiry-form" class="py-14 bg-white reveal">
+    <div class=" mx-auto px-6 max-w-7xl">
+        <div class="bg-slate-50 rounded-[3rem] overflow-hidden shadow-sm border border-slate-100">
+            <div class="flex flex-col lg:flex-row">
+                
+                <div class="lg:w-1/3 bg-secondary p-10 md:p-10 text-white flex flex-col justify-between relative overflow-hidden">
+                    <div class="relative z-10">
+                        <h3 class="text-xl font-bold mb-6">Visit Our <br><span class="text-primary">Admission Cell</span></h3>
+                        <p class="text-white/60 mb-10 leading-relaxed">
+                            Have specific questions? Our admission counselors are here to help you navigate the process.
+                        </p>
+
+                        <div class="space-y-8">
+                            <div class="flex gap-5">
+                                <div class="w-12 h-12 bg-white/10 rounded-2xl flex items-center justify-center shrink-0">
+                                    <i class="fas fa-phone-alt text-primary"></i>
+                                </div>
+                                <div>
+                                    <p class="text-xs uppercase tracking-widest text-white/40 mb-1">Call Us</p>
+                                    <p class="font-bold">+91 462 257 2411</p>
+                                </div>
+                            </div>
+
+                            <div class="flex gap-5">
+                                <div class="w-12 h-12 bg-white/10 rounded-2xl flex items-center justify-center shrink-0">
+                                    <i class="fas fa-envelope text-primary"></i>
+                                </div>
+                                <div>
+                                    <p class="text-xs uppercase tracking-widest text-white/40 mb-1">Email</p>
+                                    <p class="font-bold ">admissions@bellschool.edu.in</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mt-16 p-6 bg-white/5 rounded-3xl border border-white/10 relative z-10">
+                        <p class="text-sm italic text-white/80">
+                            "The best way to know us is to see us in action. Schedule a campus tour today."
+                        </p>
+                    </div>
+
+                    <div class="absolute top-0 right-0 w-64 h-64 bg-primary/10 rounded-full -mr-32 -mt-32"></div>
+                </div>
+
+                <div class="lg:w-2/3 p-10 md:p-10 bg-white">
+                    <h4 class="text-xl font-bold text-secondary mb-2">Inquiry Form</h4>
+                    <p class="text-slate-400 mb-10">Please fill in the details below, and our team will get back to you within 24 hours.</p>
+
+                    <form action="#" class="space-y-6">
+                        <div class="grid md:grid-cols-2 gap-6">
+                            <div class="space-y-2">
+                                <label class="text-xs font-bold uppercase tracking-wider text-slate-500 ml-1">Parent / Guardian Name</label>
+                                <input type="text" placeholder="e.g. John Doe" 
+                                    class="w-full px-4 py-3 rounded-2xl bg-slate-50 border border-slate-200 focus:border-primary focus:ring-4 focus:ring-primary/10 outline-none transition-all">
+                            </div>
+                            <div class="space-y-2">
+                                <label class="text-xs font-bold uppercase tracking-wider text-slate-500 ml-1">Contact Number</label>
+                                <input type="tel" placeholder="e.g. +91 98765 43210" 
+                                    class="w-full px-4 py-3 rounded-2xl bg-slate-50 border border-slate-200 focus:border-primary focus:ring-4 focus:ring-primary/10 outline-none transition-all">
+                            </div>
+                        </div>
+
+                        <div class="grid md:grid-cols-2 gap-6">
+                            <div class="space-y-2">
+                                <label class="text-xs font-bold uppercase tracking-wider text-slate-500 ml-1">Student Name</label>
+                                <input type="text" placeholder="Full Name" 
+                                    class="w-full px-4 py-3 rounded-2xl bg-slate-50 border border-slate-200 focus:border-primary focus:ring-4 focus:ring-primary/10 outline-none transition-all">
+                            </div>
+                            <div class="space-y-2">
+                                <label class="text-xs font-bold uppercase tracking-wider text-slate-500 ml-1">Grade Seeking</label>
+                                <select class="w-full px-4 py-3 rounded-2xl bg-slate-50 border border-slate-200 focus:border-primary focus:ring-4 focus:ring-primary/10 outline-none transition-all appearance-none cursor-pointer">
+                                    <option>Select Grade</option>
+                                    <option>Kindergarten (Pre-KG / LKG / UKG)</option>
+                                    <option>Primary (Class I - V)</option>
+                                    <option>Junior High (Class VI - VIII)</option>
+                                    <option>High School (Class IX - XII)</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="space-y-2">
+                            <label class="text-xs font-bold uppercase tracking-wider text-slate-500 ml-1">Email Address</label>
+                            <input type="email" placeholder="email@example.com" 
+                                class="w-full px-4 py-3 rounded-2xl bg-slate-50 border border-slate-200 focus:border-primary focus:ring-4 focus:ring-primary/10 outline-none transition-all">
+                        </div>
+
+                        <div class="space-y-2">
+                            <label class="text-xs font-bold uppercase tracking-wider text-slate-500 ml-1">Any Specific Questions?</label>
+                            <textarea rows="4" placeholder="Tell us about your child's needs..." 
+                                class="w-full px-4 py-3 rounded-2xl bg-slate-50 border border-slate-200 focus:border-primary focus:ring-4 focus:ring-primary/10 outline-none transition-all resize-none"></textarea>
+                        </div>
+
+                        <button type="submit" class="w-full py-5 bg-secondary text-white font-bold rounded-2xl hover:bg-primary hover:text-secondary transition-all shadow-xl shadow-secondary/10 flex items-center justify-center gap-3 group">
+                            Submit Inquiry
+                            <i class="fas fa-paper-plane text-sm group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform"></i>
+                        </button>
+                    </form>
+                </div>
             </div>
         </div>
     </div>
+</section>
+
+<!-- Footer -->
+    <footer class="bg-green-900 text-white pt-14 pb-8">
+        <div class="max-w-7xl mx-auto px-4 md:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
+                <!-- About -->
+                <div class="space-y-6">
+                    <div class="flex items-center gap-3 bg-white/10 p-4 rounded-xl w-fit">
+                        <img src="images/Bell-Logo_1.jpg" alt="Bell School Logo"
+                            class="h-12 w-auto bg-white rounded-md p-1">
+                        <div>
+                            <h3 class="text-white font-bold text-lg">Bell School</h3>
+                            <p class="text-white/60 text-[10px] uppercase tracking-wider">Est. 1992</p>
+                        </div>
+                    </div>
+                    <p class="text-white/70 text-sm leading-relaxed">
+                        A caring and collaborative learning institution, preparing students for personal and
+                        professional success in the global community.
+                    </p>
+                    <div class="flex gap-4">
+                        <a href="#"
+                            class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-primary hover:text-dark transition-all">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#"
+                            class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-primary hover:text-dark transition-all">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#"
+                            class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-primary hover:text-dark transition-all">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                        <a href="#"
+                            class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-primary hover:text-dark transition-all">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div>
+                    <h4 class="text-primary font-bold text-xl mb-6">Quick Links</h4>
+                    <ul class="space-y-3 text-sm text-white/80">
+                        <li><a href="about.html"
+                                class="hover:text-primary transition-colors hover:translate-x-1 inline-block">About
+                                Us</a></li>
+                        <li><a href="academic.html"
+                                class="hover:text-primary transition-colors hover:translate-x-1 inline-block">Academics</a>
+                        </li>
+                        <li><a href="admission.html"
+                                class="hover:text-primary transition-colors hover:translate-x-1 inline-block">Admission
+                                Process</a></li>
+                        <li><a href="facilities.html"
+                                class="hover:text-primary transition-colors hover:translate-x-1 inline-block">Campus
+                                Facilities</a></li>
+                        <li><a href="gallery.html"
+                                class="hover:text-primary transition-colors hover:translate-x-1 inline-block">Photo
+                                Gallery</a></li>
+                        <li><a href="careers.html"
+                                class="hover:text-primary transition-colors hover:translate-x-1 inline-block">Careers</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Contact Info -->
+                <div>
+                    <h4 class="text-primary font-bold text-xl mb-6">Contact Us</h4>
+                    <ul class="space-y-4 text-sm text-white/80">
+                        <li class="flex items-center gap-3">
+                            <i class="fas fa-phone-alt text-primary shrink-0"></i>
+                            <a href="tel:+914622574117" class="hover:text-white transition-colors">+91 (462) 257
+                                4117</a>
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <i class="fab fa-whatsapp text-primary shrink-0"></i>
+                            <a href="tel:+919944674550" class="hover:text-white transition-colors">+91 99446 74550</a>
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <i class="far fa-envelope text-primary shrink-0"></i>
+                            <a href="mailto:bellschool1992@gmail.com"
+                                class="hover:text-white transition-colors">bellschool1992@gmail.com</a>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <i class="fas fa-map-marker-alt text-primary shrink-0 mt-1"></i>
+                            <span>Tiruchendur Road,<br> Kamaraj Nagar, Palayankottai,<br> Tirunelveli - 627 002</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- School Hours -->
+                <div>
+                    <h4 class="text-primary font-bold text-xl mb-6">School Hours</h4>
+                    <div class="bg-white/5 p-6 rounded-lg space-y-3">
+                        <div>
+                            <p class="text-[10px] text-white/60 mb-1 uppercase tracking-widest">Pre-KG to UKG</p>
+                            <p class="text-sm font-medium">9:00 AM - 3:00 PM</p>
+                        </div>
+                        <div>
+                            <p class="text-[10px] text-white/60 mb-1 uppercase tracking-widest">Classes 1 to 9</p>
+                            <p class="text-sm font-medium">8:45 AM - 4:10 PM</p>
+                        </div>
+                        <div>
+                            <p class="text-[10px] text-white/60 mb-1 uppercase tracking-widest">Classes 10 to 12</p>
+                            <p class="text-sm font-medium">8:00 AM - 5:00 PM</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="border-t border-white/10 pt-8 text-center">
+                <p class="text-[10px] text-white/40 uppercase tracking-widest">
+                    &copy; <span id="current-year"></span> Bell Matriculation Higher Secondary School. All rights
+                    reserved.
+                </p>
+                <p class="text-[10px] text-white/40 mt-2">
+                    Designed with <i class="fas fa-heart text-red-500"></i> for EDU WEB TECHNOLOGIES
+                </p>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Back to Top Button -->
+    <button id="backToTop"
+        class="fixed bottom-8 right-8 w-14 h-14 bg-secondary text-white rounded-full shadow-2xl hidden hover:bg-green-700 transition-all hover:scale-110 z-40">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+
+    <script src="js/main.js"></script>
+
 
 </body>
+
 </html>
